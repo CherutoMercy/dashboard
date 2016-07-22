@@ -3,7 +3,7 @@
   "description": "a responsive admin dashboard",
   "main": "index.js",
   "authors": [
-    "Zachariah Ngonyani <zachariahn@gmail.com>"
+    //"Zachariah Ngonyani <zachariahn@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -11,7 +11,7 @@
     "css",
     "responsive"
   ],
-  "homepage": "https://github.com/zechtz/dashboard",
+ // "homepage": "https://github.com/zechtz/dashboard",
   "moduleType": [],
   "private": true,
   "ignore": [

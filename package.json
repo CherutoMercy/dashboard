@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zechtz/dashboard.git"
+    "url": "git+https://github.com/CherutoMercy/dashboard.git"
   },
   "keywords": [],
   "author": "mercy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zechtz/dashboard/issues"
+    "url": "https://github.com/CherutoMercy/dashboard/issues"
   },
-  "homepage": "https://github.com/zechtz/dashboard#readme",
+  "homepage": "https://github.com/CherutoMercy/dashboard#readme",
   "dependencies": {
     "bower": "^1.7.9",
     "express": "^4.14.0",
