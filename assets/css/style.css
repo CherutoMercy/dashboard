@@ -270,13 +270,13 @@ input.form-control.input-rounded {
  * -----------------------------------------------------*/
 .section-sidebar {
   /*padding-top: 60px;*/
-  width: 160px;
+  /*width: 160px;*/
   display: block;
   z-index: 998;
   float: left;
   height: auto !important;
   overflow: visible !important; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768fpx) {
     .section-sidebar {
       width: 100%;
       z-index: 0; } }
@@ -324,7 +324,6 @@ input.form-control.input-rounded {
   .menu.accordion-menu {
     padding: 0;
     margin: 0;
-    width: 160px;
     color: #fff;
     position: relative;
     display: block; }
@@ -373,7 +372,7 @@ input.form-control.input-rounded {
           content: "\e605";
           font-weight: 300; }
       .menu.accordion-menu a p {
-        line-height: 1 !important;
+        line-height: 3 !important;
         margin: 0; }
     @media only screen and (max-width: 768px) {
       .menu.accordion-menu {
