@@ -1,0 +1,31 @@
+{
+  "name": "dashboard",
+  "description": "a responsive admin dashboard",
+  "main": "index.js",
+  "authors": [
+    "Zachariah Ngonyani <zachariahn@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "css",
+    "responsive"
+  ],
+  "homepage": "https://github.com/zechtz/dashboard",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3",
+    "simple-line-icons": "~2.3.2",
+    "lato": "~0.3.0",
+    "font-awesome": "~4.6.3" 
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A nice html dashboard powered by Zurb's Foundation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prestart": "grunt",
+    "start": "node index",
+    "dev": "npm install && bower install &&  nodemon index & grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zechtz/dashboard.git"
+  },
+  "keywords": [],
+  "author": "mercy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zechtz/dashboard/issues"
+  },
+  "homepage": "https://github.com/zechtz/dashboard#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {}
+}
