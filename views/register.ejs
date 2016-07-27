@@ -1,0 +1,53 @@
+
+
+<link rel="stylesheet" href="/css/bootstrap.css"/> <!-- load bootstrap css -->
+<link rel="stylesheet" href="/css/style1.css"/>
+<div class="container">
+<div class="header clearfix">
+  <h2 class="text-muted"><strong>Swahilibox Consultancy</strong></h2>
+</div>
+   <% for(i=0; i<errors.length; i++){ %>
+     <div class="alert alert-danger">
+        <%= errors[i].msg %>
+     </div>
+    <% } %>
+<h2 class="page-header">Register</h2>
+<div class="row">
+  <div class="col-lg-12 ">
+<form method="post" action="/users/register">
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" class="form-control" placeholder="First Name" name="fname">
+  </div>
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" class="form-control" placeholder="Last Name" name="lname">
+  </div>
+  <div class="form-group">
+    <label>Phone Number</label>
+    <input type="text" class="form-control" placeholder="Phone Number" name="phonenumber">
+  </div>
+  <div class="form-group">
+    <label>Username</label>
+    <input type="text" class="form-control" placeholder="Username" name="username">
+  </div>
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email" class="form-control" placeholder="Email" name="email">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" placeholder="Password Between 8- 20 Characters" name="password">
+  </div>
+  <div class="form-group">
+    <label>Confirm Password</label>
+    <input type="password" class="form-control" placeholder="Confirm Password" name="password2">
+  </div></br>
+    <button type="submit" class="btn btn-default btn-success btn-round">Submit</button>
+  </br></br></br>
+ <p>Already have an account? <a href="/users/login">Login</a></p></br></br>
+ </form>
+ </div>
+ </div>
+ </div>
+

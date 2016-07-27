@@ -1,33 +1,30 @@
 {
   "name": "dashboard",
   "version": "1.0.0",
-  "description": "A nice html dashboard powered by Zurb's Foundation.",
+  "description": "A nice html admin dashboard powered by Zurb's Foundation.",
   "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express-messages": "^1.0.1",
+    "grunt": "^1.0.1",
+    "mongodb": "^2.2.4",
+    "mongoose": "^4.5.7",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "test",
-    "prestart": "grunt",
-    "start": "node index",
-    "dev": "npm install && bower install &&  nodemon index & grunt watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CherutoMercy/dashboard.git"
   },
-  "keywords": [],
-  "author": "mercy",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CherutoMercy/dashboard/issues"
   },
-  "homepage": "https://github.com/CherutoMercy/dashboard#readme",
-  "dependencies": {
-    "bower": "^1.7.9",
-    "express": "^4.14.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "nodemon": "^1.9.2"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/CherutoMercy/dashboard#readme"
 }

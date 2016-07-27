@@ -3,7 +3,7 @@
   "description": "a responsive admin dashboard",
   "main": "index.js",
   "authors": [
-    "Zachariah Ngonyani <zachariahn@gmail.com>"
+    "Zachariah Ngonyani <zachariahn@gmail.com>",
     "Cheruto Mercy<m.thirty100@gmail.com>"
   ],
   "license": "MIT",
@@ -24,9 +24,9 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.5.3",
+    "foundation": "^5.5.3",
     "simple-line-icons": "~2.3.2",
     "lato": "~0.3.0",
-    "font-awesome": "~4.6.3" 
+    "font-awesome": "~4.6.3"
   }
 }
